@@ -1,0 +1,3 @@
+[submodule "cobalt.rs"]
+	path = cobalt.rs
+	url = git@github.com:cobalt-org/cobalt.rs.git
