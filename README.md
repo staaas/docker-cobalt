@@ -16,7 +16,7 @@ Structure:
 
 We use `Makefile` for automating docker image build process. git
 submodule `cobalt.rs` contains Cobalt source code. Image version is
-taken from submodule using `git descrbie --tags`.
+taken from submodule using `git describe --tags`.
 
 ## Build Requirements
 
@@ -51,7 +51,7 @@ Publish docker image as `latest`:
 make push-latest
 ```
 
-Long story shot, in order to release a new version one needs to:
+Long story short, in order to release a new version one needs to:
 
 * update submodule so it points to a correct tag
 * build image using `make`
