@@ -12,7 +12,7 @@ Structure:
 
 * `Makefile`
 * git submodule `cobalt.rs`
-* `Dockerfile` in `dockerfiles`
+* `Dockerfile`
 
 We use `Makefile` for automating docker image build process. git
 submodule `cobalt.rs` contains Cobalt source code. Image version is
@@ -22,8 +22,6 @@ taken from submodule using `git descrbie --tags`.
 
 * make
 * docker client (available without `sudo`)
-* cargo
-* x86_64-unknown-linux-musl rust target
 
 ## Build Process
 
