@@ -1,5 +1,5 @@
 FROM ekidd/rust-musl-builder:1.24.0
-ADD cobalt.rs/ /home/rust/src
+COPY --chown=rust:rust cobalt.rs/ /home/rust/src
 RUN cargo build --release
 
 FROM alpine:3.7
