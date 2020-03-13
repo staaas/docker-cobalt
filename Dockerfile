@@ -1,4 +1,4 @@
-FROM ekidd/rust-musl-builder:1.37.0
+FROM ekidd/rust-musl-builder:1.41.0
 COPY --chown=rust:rust cobalt.rs/ /home/rust/src
 RUN cargo build --release --no-default-features --features syntax-highlight
 
